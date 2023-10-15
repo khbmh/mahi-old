@@ -10,6 +10,7 @@ html,body{
   height: 100%;
   width: 100%;
   place-items: center;
+  /* background: linear-gradient(375deg, #343f40, #67877a); */
   background: linear-gradient(375deg, #1cc7d0, #2ede98);
 }
 ::selection{
@@ -59,9 +60,10 @@ html,body{
 
 .wrapper .back-face img{
   height: 3000px;
-  width: 300px;
+  width: 460px;
   padding: 10px;
   border-radius: 50%;
+  /* background: linear-gradient(375deg, #343f40, #67877a); */
   background: linear-gradient(375deg, #1cc7d0, #2ede98);
 }
 .wrapper .back-face .info{
@@ -70,6 +72,14 @@ html,body{
 .back-face .info .title{
   font-size: 45px;
   font-weight: 500;
+}
+.back-face .info .para{
+  font-size: 25px;
+  font-weight: 500;
+}
+i{
+    height: 40px;
+    margin-top: 27px;
 }
 .back-face ul{
   display: flex;
