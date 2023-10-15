@@ -20,7 +20,7 @@ html,body{
 .wrapper{
   height: 400px;
   width: 320px;
-  zoom: 165%;
+  zoom: 181%;
   position: relative;
   transform-style: preserve-3d;
  perspective: 1000px;
