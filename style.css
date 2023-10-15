@@ -9,6 +9,7 @@ html,body{
   display: grid;
   height: 100%;
   width: 100%;
+  zoom: 165%;
   place-items: center;
   background: linear-gradient(375deg, #1cc7d0, #2ede98);
 }
