@@ -9,7 +9,6 @@ html,body{
   display: grid;
   height: 100%;
   width: 100%;
-
   place-items: center;
   background: linear-gradient(375deg, #1cc7d0, #2ede98);
 }
@@ -21,9 +20,9 @@ html,body{
   height: 400px;
   width: 320px;
   zoom: 187%;
-  position: relative;
+  /* position: relative; */
   transform-style: preserve-3d;
- perspective: 1000px;
+ /* perspective: 1000px; */
 }
 .wrapper .card{
   position: absolute;
